@@ -7,6 +7,7 @@ namespace ShopGiay.Areas.Admin.Controllers
     [Area("Admin")]
     public class AccountController : Controller
     {
+        //aa
         private readonly dbSneakersContext _context;
         public INotyfService _notyfService { get; }
         public AccountController(dbSneakersContext context, INotyfService notyfService)
